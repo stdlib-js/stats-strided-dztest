@@ -78,8 +78,8 @@ var dztest = require( '@stdlib/stats-strided-dztest' );
 Computes a one-sample Z-test for a double-precision floating-point strided array.
 
 ```javascript
-var Float64Array = require( '@stdlib/array-float64' );
 var Results = require( '@stdlib/stats-base-ztest-one-sample-results-float64' );
+var Float64Array = require( '@stdlib/array-float64' );
 
 var x = new Float64Array( [ 4.0, 4.0, 6.0, 6.0, 5.0 ] );
 
@@ -107,8 +107,8 @@ The `N` and stride parameters determine which elements in the strided array are 
 <!-- eslint-disable max-len -->
 
 ```javascript
-var Float64Array = require( '@stdlib/array-float64' );
 var Results = require( '@stdlib/stats-base-ztest-one-sample-results-float64' );
+var Float64Array = require( '@stdlib/array-float64' );
 
 var x = new Float64Array( [ 4.0, 0.0, 4.0, 0.0, 6.0, 0.0, 6.0, 0.0, 5.0, 0.0 ] );
 
@@ -125,8 +125,8 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 <!-- eslint-disable stdlib/capitalized-comments -->
 
 ```javascript
-var Float64Array = require( '@stdlib/array-float64' );
 var Results = require( '@stdlib/stats-base-ztest-one-sample-results-float64' );
+var Float64Array = require( '@stdlib/array-float64' );
 
 var x0 = new Float64Array( [ 0.0, 4.0, 4.0, 6.0, 6.0, 5.0 ] );
 var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
@@ -144,8 +144,8 @@ var bool = ( out === results );
 Computes a one-sample Z-test for a double-precision floating-point strided array using alternative indexing semantics.
 
 ```javascript
-var Float64Array = require( '@stdlib/array-float64' );
 var Results = require( '@stdlib/stats-base-ztest-one-sample-results-float64' );
+var Float64Array = require( '@stdlib/array-float64' );
 
 var x = new Float64Array( [ 4.0, 4.0, 6.0, 6.0, 5.0 ] );
 
@@ -164,8 +164,8 @@ The function has the following additional parameters:
 While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameter supports indexing semantics based on a starting index. For example, to perform a one-sample Z-test over every other element in `x` starting from the second element
 
 ```javascript
-var Float64Array = require( '@stdlib/array-float64' );
 var Results = require( '@stdlib/stats-base-ztest-one-sample-results-float64' );
+var Float64Array = require( '@stdlib/array-float64' );
 
 var x = new Float64Array( [ 0.0, 4.0, 0.0, 4.0, 0.0, 6.0, 0.0, 6.0, 0.0, 5.0 ] );
 
@@ -194,8 +194,8 @@ var bool = ( out === results );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var normal = require( '@stdlib/random-array-normal' );
 var Results = require( '@stdlib/stats-base-ztest-one-sample-results-float64' );
+var normal = require( '@stdlib/random-array-normal' );
 var dztest = require( '@stdlib/stats-strided-dztest' );
 
 var x = normal( 1000, 0.0, 1.0, {
