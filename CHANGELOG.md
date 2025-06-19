@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`05c699b`](https://github.com/stdlib-js/stdlib/commit/05c699b2d1d0fbbbba0fe311e93df688c7322906) - **docs:** add notes _(by Athan Reines)_
 -   [`cb5844f`](https://github.com/stdlib-js/stdlib/commit/cb5844ffacbec5da322697ab5af011267f8d490c) - **docs:** update comments _(by Athan Reines)_
 -   [`0409af2`](https://github.com/stdlib-js/stdlib/commit/0409af2c21ceeeb2df2d02c6940044012293891b) - **docs:** fix missing dtypes _(by Athan Reines)_
 -   [`3b1438a`](https://github.com/stdlib-js/stdlib/commit/3b1438aba73f5fa0e042b27d71ba97c8578f7def) - **docs:** reorder imports _(by Athan Reines)_
