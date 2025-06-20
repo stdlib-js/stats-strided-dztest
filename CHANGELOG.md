@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-19)
+## Unreleased (2025-06-20)
 
 <section class="features">
 
@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`1fc8766`](https://github.com/stdlib-js/stdlib/commit/1fc87661cab2d02bdfbd875e8560e8933d5ca0de) - **test:** add tests _(by Athan Reines)_
+-   [`f9aff17`](https://github.com/stdlib-js/stdlib/commit/f9aff17312f8447de40566ad1390f96c5d4ba5b5) - **test:** add tests _(by Athan Reines)_
 -   [`05c699b`](https://github.com/stdlib-js/stdlib/commit/05c699b2d1d0fbbbba0fe311e93df688c7322906) - **docs:** add notes _(by Athan Reines)_
 -   [`cb5844f`](https://github.com/stdlib-js/stdlib/commit/cb5844ffacbec5da322697ab5af011267f8d490c) - **docs:** update comments _(by Athan Reines)_
 -   [`0409af2`](https://github.com/stdlib-js/stdlib/commit/0409af2c21ceeeb2df2d02c6940044012293891b) - **docs:** fix missing dtypes _(by Athan Reines)_
