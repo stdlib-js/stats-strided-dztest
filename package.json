@@ -58,6 +58,7 @@
     "@stdlib/napi-export": "^0.2.2",
     "@stdlib/stats-base-dists-normal-cdf": "^0.2.2",
     "@stdlib/stats-base-dists-normal-quantile": "^0.2.2",
+    "@stdlib/stats-base-ztest-alternative-resolve-str": "github:stdlib-js/stats-base-ztest-alternative-resolve-str#main",
     "@stdlib/stats-base-ztest-alternatives": "github:stdlib-js/stats-base-ztest-alternatives#main",
     "@stdlib/stats-base-ztest-one-sample-results-float64": "github:stdlib-js/stats-base-ztest-one-sample-results-float64#main",
     "@stdlib/stats-strided-dmean": "github:stdlib-js/stats-strided-dmean#main",
