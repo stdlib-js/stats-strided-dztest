@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-22)
+## Unreleased (2025-07-21)
 
 <section class="features">
 
@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`a12628a`](https://github.com/stdlib-js/stdlib/commit/a12628ad05e60a114fad1165481fd2da16f57886) - **bench:** fix descriptions _(by Athan Reines)_
 -   [`b969863`](https://github.com/stdlib-js/stdlib/commit/b96986389424d71ba9ffd381829e3a029cf32e5d) - **fix:** always resolve the alternative string _(by Athan Reines)_
 -   [`265464f`](https://github.com/stdlib-js/stdlib/commit/265464f2e5972213857a751af846cb35fd5e08af) - **docs:** fix path _(by Athan Reines)_
 -   [`de88ecb`](https://github.com/stdlib-js/stdlib/commit/de88ecb1aeb8dd5e089a855db5bd6bcfb0657281) - **fix:** allow extended types _(by Athan Reines)_
