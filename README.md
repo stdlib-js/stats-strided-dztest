@@ -476,8 +476,6 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-strided-dztest/main/LICENSE
 
-[variance]: https://en.wikipedia.org/wiki/Variance
-
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [@stdlib/stats/base/ztest/alternatives]: https://github.com/stdlib-js/stats-base-ztest-alternatives
