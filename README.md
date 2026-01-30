@@ -56,6 +56,11 @@ A Z-test commonly refers to a one-sample location test which compares the mean o
 ## Usage
 
 ```javascript
+import dztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dztest@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-dztest/tags). For example,
+
+```javascript
 import dztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dztest@v0.1.0-esm/index.mjs';
 ```
 
@@ -191,7 +196,7 @@ var bool = ( out === results );
 
 import Results from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-one-sample-results-float64@esm/index.mjs';
 import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-normal@esm/index.mjs';
-import dztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dztest@v0.1.0-esm/index.mjs';
+import dztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dztest@esm/index.mjs';
 
 var x = normal( 1000, 0.0, 1.0, {
     'dtype': 'float64'
