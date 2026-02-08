@@ -56,6 +56,11 @@ A Z-test commonly refers to a one-sample location test which compares the mean o
 ## Usage
 
 ```javascript
+import dztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dztest@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-dztest/tags). For example,
+
+```javascript
 import dztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dztest@v0.1.1-deno/mod.js';
 ```
 
@@ -186,7 +191,7 @@ var bool = ( out === results );
 ```javascript
 import Results from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ztest-one-sample-results-float64@deno/mod.js';
 import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-normal@deno/mod.js';
-import dztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dztest@v0.1.1-deno/mod.js';
+import dztest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dztest@deno/mod.js';
 
 var x = normal( 1000, 0.0, 1.0, {
     'dtype': 'float64'
